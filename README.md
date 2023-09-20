@@ -14,3 +14,12 @@ migrate -path ./schema -database 'postgres://postgres:root@localhost:5436/postgr
 docker exec -it 155b0128516d /bin/bash
 root@155b0128516d:/# psql -U postgres
 psql
+
+Для работы с БД
+go get -u github.com/jmoiron/sqlx
+
+Go postgres driver for Go's database/sql package
+go get -u github.com/lib/pq
+
+Для получения паролей в приложении используются переменные окружения
+go get -u github.com/joho/godotenv

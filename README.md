@@ -23,3 +23,6 @@ go get -u github.com/lib/pq
 
 Для получения паролей в приложении используются переменные окружения
 go get -u github.com/joho/godotenv
+
+Бибилиотека для логирования
+go get -u github.com/sirupsen/logrus

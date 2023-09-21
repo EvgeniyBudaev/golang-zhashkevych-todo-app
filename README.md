@@ -26,3 +26,6 @@ go get -u github.com/joho/godotenv
 
 Бибилиотека для логирования
 go get -u github.com/sirupsen/logrus
+
+JWT
+go get -u github.com/dgrijalva/jwt-go
